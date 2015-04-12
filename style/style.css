@@ -1,0 +1,201 @@
+header, body{
+	padding: 0;
+	margin: 0;
+}
+header{
+	border-top: 2px solid #fd5151;
+}
+.logo{
+	background-color: #fd5151;
+	background:#fd5151 url('../image/luxury.jpg') no-repeat 25px 5px ;
+	position: relative;
+	width: 150px;
+	height: 100px;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.15); 
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.15); 
+	box-shadow: 0 0 3px rgba(0,0,0,.15);
+	float: left;
+	margin-left: 15%;
+}
+.logo span{
+	color: #fff; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 30px;
+	position: absolute;
+	top: 43px;
+	left: 18px;
+}
+.logo p{
+	color: #fff; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top:67px;
+	left: 60px;
+}
+.top_nav{
+	height: 40px;
+	width: 75%;
+	border-bottom: 1px solid #ccc;
+	float: right;
+}
+.login a{
+	text-decoration: none;
+	color: #656565;
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+	display: block;
+	padding-left: 15px;
+	display: inline;
+	white-space: pre-wrap;
+}
+.login{
+	margin-right: 15%;
+	position: relative;
+	top: 25%;
+	float: right;
+}
+.Language span{
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg); 
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+	-o-transform: rotate(90deg); 
+	display: inline-block; padding-left: 8px; vertical-align: text-top; text-indent: 0px;
+}
+ .main_lang a{
+	color: red;
+	text-decoration: none;
+}
+.main_lang {
+	list-style: none;
+	float: left;
+	position: relative;
+	right: 37px;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+}
+.sub_lang a{
+	color:red;
+	text-decoration: none;
+	display: block;
+	padding: 2px;
+}
+.sub_lang{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	text-align: center;
+	width: 50px;
+	height: 20px;
+	position: relative;
+	z-index: 10;
+	left: 50px;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+}
+.main_lang>li:hover .sub_lang{
+	display: block;
+}
+.main_lang span{
+	position: relative;
+	bottom: 3px;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+}
+.main_many a{
+	color: red;
+	text-decoration: none;
+}
+.main_many {
+	list-style: none;
+	float: left;
+	position: relative;
+	right: 37px;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+}
+.sub_many a{
+	color:red;
+	text-decoration: none;
+	display: block;
+	padding: 2px;
+}
+.sub_many{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	text-align: center;
+	width: 50px;
+	height: 20px;
+	position: relative;
+	z-index: 10;
+	left: 40px;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+}
+.main_many>li:hover .sub_many{
+	display: block;
+}
+.main_many span{
+	position: relative;
+	bottom: 3px;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+}
+.navi{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navi a{
+	text-decoration: none;
+	display: block;
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.navi >.main_menu >li{
+	display: inline-block;
+	padding-left: 4%;
+	padding-top: 25px;
+}
+.navi li:first-child a{
+	color: #ff5959;
+}
+.navi .block a{
+	color: #727272; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 11px;
+	padding-bottom:15px;
+}
+.main_menu .sub_menu{
+	position: absolute;
+	height: 18%;
+	border: 1px solid #ccc;
+	width:18%;
+	margin-top: 5px;
+	left: -10px;
+	z-index:10;
+}
+.sub_menu .block{
+	list-style: none;
+}
+.sub_menu .block_2{
+	position: relative;
+	left: 60%;
+	top: 10px;
+}
+.sub_menu .block_1{
+	position: relative;
+	top:10px;
+}
