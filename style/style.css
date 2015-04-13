@@ -74,6 +74,7 @@ header{
 	color: #656565; 
 	font-family: "Droid Sans", sans-serif;
 	font-size: 12px;
+	z-index: 10;
 }
 .sub_lang a{
 	color:red;
@@ -119,6 +120,7 @@ header{
 	font-family: "Droid Sans", sans-serif;
 	font-size: 12px;
 	padding-left: 15px;
+	z-index:10;
 }
 .sub_many a{
 	color:red;
@@ -155,6 +157,7 @@ header{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	position: relative;
 }
 .navi a{
 	text-decoration: none;
@@ -163,6 +166,7 @@ header{
 	font-family: "Droid Sans", sans-serif;
 	font-size: 15px;
 	font-weight: bold;
+	height: 27px;
 }
 .navi >.main_menu >li{
 	display: inline-block;
@@ -172,30 +176,41 @@ header{
 .navi li:first-child a{
 	color: #ff5959;
 }
+li:nth-child(3){
+	color: #ff5959;
+}
 .navi .block a{
 	color: #727272; 
 	font-family: "Droid Sans", sans-serif;
 	font-size: 11px;
-	padding-bottom:15px;
 }
-.main_menu .sub_menu{
-	position: absolute;
-	height: 18%;
+.sub_menu{
 	border: 1px solid #ccc;
-	width:18%;
-	margin-top: 5px;
-	left: -10px;
-	z-index:10;
+	width: 15%;
+	height: 190px;
+	position:absolute;
+	left:38%;
+	padding-left: 25px;
+	display: none;
+}
+.main_menu>li:hover >.sub_menu{
+	display: block;
 }
 .sub_menu .block{
+	position: relative;
 	list-style: none;
+	padding-top: 15px;	
 }
 .sub_menu .block_2{
-	position: relative;
+	position: absolute;
 	left: 60%;
-	top: 10px;
 }
 .sub_menu .block_1{
-	position: relative;
-	top:10px;
+	position: absolute;
+	z-index:10;
 }
+.sub_menu .block_1 a{
+	border-right: 1px solid #ccc;
+	width: 115%;
+}
+
