@@ -54,6 +54,7 @@ header{
 	position: relative;
 	top: 25%;
 	float: right;
+	z-index: 3;
 }
 .Language span{
 	-webkit-transform: rotate(90deg); 
@@ -192,9 +193,11 @@ li:nth-child(3){
 	left:38%;
 	padding-left: 25px;
 	display: none;
+	top:83px;
 }
 .main_menu>li:hover >.sub_menu{
 	display: block;
+	background: #ffffff;
 }
 .sub_menu .block{
 	position: relative;
@@ -207,10 +210,19 @@ li:nth-child(3){
 }
 .sub_menu .block_1{
 	position: absolute;
-	z-index:10;
+	z-index: 10;
 }
 .sub_menu .block_1 a{
 	border-right: 1px solid #ccc;
 	width: 115%;
+}
+.slider {
+	background: url('../image/slide.png') no-repeat;
+	width: 1600px;
+	height: 610px;
+	position: absolute;
+	top: 102px;
+	left: 288px;
+	z-index: -150;
 }
 
