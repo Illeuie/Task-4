@@ -241,6 +241,15 @@ header{
 .search a{
 	display: inline-block;
 }
+.bay{
+	position: absolute;
+	width: 290px;
+	height: 300px;
+}
+.bay img{
+	width: 52px;
+	height: 67px;
+}
 .search span{
 	color: #898989; 
 	font-family: "DroidSans", sans-serif;
@@ -254,17 +263,14 @@ header{
 	width: 100%;
 	height: 582px;
 	position: absolute;
-	top: 101px;
+	top: 102px;
 	z-index: -150;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 	border-bottom: 2px solid #ff5959;
 }
-.slider img{
-	position: relative;
-	top:1px;
-}
+
 
 
 
