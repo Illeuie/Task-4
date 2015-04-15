@@ -231,7 +231,7 @@ header{
 	float: right;
 	position: relative;
 	bottom: 65px;
-	right: 7%;
+	right: 260px;
 }
 .search img{
 	width: 34px;
@@ -242,13 +242,70 @@ header{
 	display: inline-block;
 }
 .bay{
-	position: absolute;
 	width: 290px;
 	height: 300px;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.2); 
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.2); 
+	box-shadow: 0 0 5px rgba(0,0,0,.2); 
+	border-top: 3px solid #ff5959;
+	position: absolute;
+	background: #ffffff;
+	border-top: 3px solid red;
+	top: 44px;
+	right: -11px;
 }
 .bay img{
 	width: 52px;
 	height: 67px;
+	margin-left: 10px;
+	float: left;
+}
+.bay p{
+	color: #898989; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+.bay .size{
+	position: relative;
+}
+.bay .size  h4{
+	color: #656565; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+	float: left;
+	margin-left: 10px;
+}
+.bay .size p{
+	color: #898989;
+	font-family: "Droid Sans", sans-serif;
+	font-size: 11px;
+	position: relative;
+	top: 30px;
+	right: 118px;
+}
+.bay:after, .arrow_box:before {
+	bottom: 100%;
+	left: 83%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.bay:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ff5959;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.bay:before {
+	border-color: rgba(242, 242, 242, 0);
+	border-bottom-color: #ff5959;
+	border-width: 9px;
+	margin-left: -9px;
 }
 .search span{
 	color: #898989; 
@@ -256,7 +313,20 @@ header{
 	font-size: 13px;
 	font-weight: bold;
 	position: relative;
-	bottom: 10px;
+	bottom: 12px;
+}
+.size span{
+	color: #ff5959; 
+	font-family: "DroidSans", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	bottom: -1px;
+}
+.cancel img{
+	width: 20px;
+	height: 20px;
+	background: #fff;
 }
 .slider {
 	background:#ccc;
