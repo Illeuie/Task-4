@@ -15,7 +15,7 @@ header{
 	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.15); 
 	box-shadow: 0 0 3px rgba(0,0,0,.15);
 	float: left;
-	margin-left: 15%;
+	margin-left: 250px;
 }
 .logo span{
 	color: #fff; 
@@ -37,7 +37,8 @@ header{
 	height: 40px;
 	width: 75%;
 	border-bottom: 1px solid #ccc;
-	float: right;
+	position: absolute;
+	margin-left: 430px;
 }
 .login a{
 	text-decoration: none;
@@ -159,6 +160,7 @@ header{
 	padding: 0;
 	margin: 0;
 	position: relative;
+	top:20px;
 }
 .navi a{
 	text-decoration: none;
@@ -169,31 +171,36 @@ header{
 	font-weight: bold;
 	height: 27px;
 }
+.main_menu>li >a{
+	height: 38px;
+	width: 80px;
+	padding: 15px 0 0 20px;
+	}
+.main_menu>li:nth-child(3):hover >a{
+	color:#ff5959;
+	border: 1px solid #ccc;
+
+	}
 .navi >.main_menu >li{
 	display: inline-block;
-	padding-left: 4%;
-	padding-top: 25px;
+	padding-top: 15px;
 }
-.navi li:first-child a{
-	color: #ff5959;
-}
-li:nth-child(3){
+.main_menu >li:first-child >a{
 	color: #ff5959;
 }
 .navi .block a{
 	color: #727272; 
-	font-family: "Droid Sans", sans-serif;
 	font-size: 11px;
 }
 .sub_menu{
 	border: 1px solid #ccc;
-	width: 15%;
+	width: 300px;
 	height: 190px;
 	position:absolute;
-	left:38%;
+	left:608px;
 	padding-left: 25px;
 	display: none;
-	top:83px;
+	top:63px;
 }
 .main_menu>li:hover >.sub_menu{
 	display: block;
@@ -214,15 +221,21 @@ li:nth-child(3){
 }
 .sub_menu .block_1 a{
 	border-right: 1px solid #ccc;
-	width: 115%;
+	width: 135px;
 }
 .slider {
-	background: url('../image/slide.png') no-repeat;
-	width: 1600px;
-	height: 610px;
+	background:#ccc;
+	width: 100%;
+	min-height: 300px;
 	position: absolute;
-	top: 102px;
-	left: 288px;
+	top: 101px;
 	z-index: -150;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
+.slider img{
+	position: relative;
+	top:1px;
 
+}
