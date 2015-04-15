@@ -178,8 +178,7 @@ header{
 	}
 .main_menu>li:nth-child(3):hover >a{
 	color:#ff5959;
-	border: 1px solid #ccc;
-
+	border: 1px solid #F2F2F2;
 	}
 .navi >.main_menu >li{
 	display: inline-block;
@@ -201,10 +200,15 @@ header{
 	padding-left: 25px;
 	display: none;
 	top:63px;
+	border-top: none;
 }
 .main_menu>li:hover >.sub_menu{
 	display: block;
 	background: #ffffff;
+}
+.block>li>a:hover{
+	color:#ff5959;
+	padding-left: 1px;
 }
 .sub_menu .block{
 	position: relative;
@@ -223,19 +227,44 @@ header{
 	border-right: 1px solid #ccc;
 	width: 135px;
 }
+.search{
+	float: right;
+	position: relative;
+	bottom: 65px;
+	right: 7%;
+}
+.search img{
+	width: 34px;
+	height: 34px;
+	background: #4b4b4b;
+}
+.search a{
+	display: inline-block;
+}
+.search span{
+	color: #898989; 
+	font-family: "DroidSans", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	bottom: 10px;
+}
 .slider {
 	background:#ccc;
 	width: 100%;
-	min-height: 300px;
+	height: 582px;
 	position: absolute;
 	top: 101px;
 	z-index: -150;
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	border-bottom: 2px solid #ff5959;
 }
 .slider img{
 	position: relative;
 	top:1px;
-
 }
+
+
+
