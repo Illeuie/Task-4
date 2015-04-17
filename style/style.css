@@ -547,6 +547,16 @@ header{
 	bottom:190px;
 	left: 30px; 
 }
+.block img{
+	width: 236px;
+	height: 300px;
+	border: 1px solid#f2f2f2
+}
+.column_2{
+	width: 980px;
+	border: 1px solid;
+	height: 615px;
+}
 
 
 
