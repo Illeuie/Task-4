@@ -472,12 +472,13 @@ header{
 	height: 180px;
 	position: relative;
 	top:20px;
-	margin-left: 150px;
+	margin-left: 250px;
 }
 .column .baner {
 	width: 307px;
 	height: 192px;
 	float: left;
+	margin-right: 23px;
 }
 .baner img{
 	border: 1px solid#f2f2f2
@@ -486,7 +487,7 @@ header{
 	text-decoration: none;
 }
 .column .baner_1 p{
-	text-decoration: none;
+
 	color: #fff; 
 	font-family: "Sylfaen";
 	font-size: 18px;
@@ -543,6 +544,12 @@ header{
 	bottom: 200px;
 	left: 30px
 }
+.baner_3 sup{
+	color: #fff; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 15px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
 .baner_3 button{
 	bottom:190px;
 	left: 30px; 
@@ -550,12 +557,45 @@ header{
 .block img{
 	width: 236px;
 	height: 300px;
-	border: 1px solid#f2f2f2
+	border: 1px solid#f2f2f2;
 }
-.column_2{
-	width: 980px;
-	border: 1px solid;
-	height: 615px;
+.arrow a{
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+}
+.arrow_left,
+.arrow_right{
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	bottom: 10px;
+	left: 900px;
+}
+.arrow_left{
+	margin-left: 30px;
+	background: #fe5252;
+}
+.arrow_right{
+	background: #ebebeb;
+}
+.column_1{
+	margin-top: 70px; 
+	position: relative;
+}
+.column_1 h3{
+	border-bottom: 1px solid#f2f2f2;
+	padding-bottom: 10px;
+	color: #4b4b4b; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 18px;
+}
+.block{
+	margin-left: 250px;
+	width: 965px;
 }
 
 
