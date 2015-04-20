@@ -146,7 +146,7 @@ header{
 	font-family: "Droid Sans", sans-serif;
 	font-size: 12px;
 }
-.main_many>li:hover .sub_many{
+.main_many>li:hover >.sub_many{
 	display: block;
 }
 .main_many span{
@@ -488,7 +488,6 @@ header{
 	text-decoration: none;
 }
 .column .baner_1 p{
-
 	color: #fff; 
 	font-family: "Sylfaen";
 	font-size: 18px;
@@ -597,6 +596,45 @@ header{
 .block_3{
 	margin-left: 250px;
 	width: 970px;
+}
+.column_2 .price p{
+	width: 69px;
+	height: 44px;
+	border-radius: 50%;
+	background: #ff7373;
+	text-align: center;
+	padding-top: 25px;
+	color: #fff; 
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: bold;
+}
+.column_2 .add_cart h3{
+	color: #656565; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 13px;
+}
+.column_2 .add_cart img{
+	width: 11px;
+	height: 11px;
+	background: #FFFFFF;
+	border: none;
+}
+.column_2 .add_cart{
+	text-align: center;
+}
+.price{
+	border: 10px solid;
+	width: 236px;
+	position: absolute;
+	background: #ffffff;
+	z-index: 10;
+	display: none;
+}
+.column_2 a:hover.price{
+	border: 10px solid red;
+	display: block;
+
 }
 
 
