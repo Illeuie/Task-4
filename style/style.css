@@ -1,6 +1,7 @@
 header, body{
 	padding: 0;
 	margin: 0;
+	max-width: 1920px;
 }
 header{
 	border-top: 2px solid #fd5151;
@@ -554,7 +555,7 @@ header{
 	bottom:190px;
 	left: 30px; 
 }
-.block img{
+.block_3 img{
 	width: 236px;
 	height: 300px;
 	border: 1px solid#f2f2f2;
@@ -593,10 +594,11 @@ header{
 	font-family: "Droid Sans", sans-serif;
 	font-size: 18px;
 }
-.block{
+.block_3{
 	margin-left: 250px;
-	width: 965px;
+	width: 970px;
 }
+
 
 
 
