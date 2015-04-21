@@ -608,9 +608,13 @@ header{
 	font-family: "Arial";
 	font-size: 15px;
 	font-weight: bold;
+	position: absolute;
+	z-index: -20;
+	left: 75px;
+	bottom: 60px;
 }
 .column_2 .add_cart h3{
-	color: #656565; /* text color */
+	color: #656565; 
 	font-family: "Droid Sans", sans-serif;
 	font-size: 13px;
 }
@@ -620,24 +624,151 @@ header{
 	background: #FFFFFF;
 	border: none;
 }
+.column_2{
+	position: relative;
+}
 .column_2 .add_cart{
 	text-align: center;
+	position: relative;
+	z-index: 20;
 }
 .price{
-	border: 10px solid;
-	width: 236px;
+	width: 230px;
+	height: 100px;
 	position: absolute;
 	background: #ffffff;
-	z-index: 10;
+	left: 3px;
+	top: 250px;
+	z-index: 19;
 	display: none;
 }
-.column_2 a:hover.price{
-	border: 10px solid red;
+.column_2:hover>.price{
 	display: block;
-
 }
-
-
+.cont{
+	float: left;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+.twitter{
+	height: 280px;
+	width:280px;
+}
+.twitter h2{
+	color: #4b4b4b; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 18px;
+	margin:0; 
+}
+.twitter img{
+	float: left;
+	margin-right: 15px;
+}
+.twitter  span{
+	color: #fe6262; 
+	font-family: "Droid Sans", sans-serif;
+	font-size: 13px;
+}
+.twitter p{
+	color: #666666; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12px;
+	width: 280px
+}
+.twitter span2{
+	color: #b0b0b0; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 10px;
+	float: right;
+}
+.coment_1,
+.coment_2,
+.coment_3{
+	border-bottom: 1px dashed#f2f2f2;
+	height: 60px
+}
+.coment_4 a{
+	text-decoration: none;
+	color: #fd5151; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 11px;
+	padding-left: 50px;
+}
+.cont_line,
+.face_line{
+	border-right: 1px solid #f2f2f2;
+	padding-right: 35px;
+	float: left;
+}
+.facebook{
+	float: left;
+	height: 280px;
+	width:235px;
+	margin-left:35px; 
+}
+.facebook h2{
+	color: #4b4b4b; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
+.foto p{
+	color: #898989; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+}
+.foto img{
+	border: 1px solid #f2f2f2;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	padding: 2px;
+}
+.foto{
+	height: 75px;
+	width: 65px;
+	margin-top: 10px;
+}
+.facebook button{
+	width: 47px;
+	height: 24px;
+	background: url('../image/like.png') -1px -2px;
+	border-radius: 5px;
+	float: left;
+}
+.but p{
+	color: #898989; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 11px;
+	margin-left: 20px;
+	padding-left: 40px;
+	line-height: 50%
+}
+.but span{
+	color: #fe8080;
+}
+.but{
+	height: 24px;
+	border: 1px solid #ffffff;
+	margin-top: 15px;
+}
+.foto_1,
+.foto_2,
+.foto_4,
+.foto_5{
+	float: left;
+	margin-right: 20px;
+}
+.foto_3,
+.foto_6{
+	float: right;
+}
+.face_line-2{
+	border-top: 1px dashed#f2f2f2;
+	border-bottom: 1px dashed#f2f2f2;
+	height: 175px;
+	margin:10px 0 0 0; 
+}
 
 
 
