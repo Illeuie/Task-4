@@ -1,7 +1,8 @@
 header, body{
 	padding: 0;
 	margin: 0;
-	max-width: 1920px;
+	width: 1280px;
+	background-color: #ffffff;
 }
 header{
 	border-top: 2px solid #fd5151;
@@ -36,7 +37,7 @@ header{
 }
 .top_nav{
 	height: 40px;
-	width: 70%;
+	width: 850px;
 	border-bottom: 1px solid #ccc;
 	position: absolute;
 	margin-left: 430px;
@@ -52,9 +53,9 @@ header{
 	white-space: pre-wrap;
 }
 .login{
-	margin-right: 10%;
-	position: relative;
-	top: 25%;
+	margin-right: 60px;
+	float: right;
+	padding-top: 10px;
 	float: right;
 	z-index: 3;
 }
@@ -65,7 +66,7 @@ header{
 	-o-transform: rotate(90deg); 
 	display: inline-block; padding-left: 8px; vertical-align: text-top; text-indent: 0px;
 }
- .main_lang a{
+.main_lang a{
 	color: red;
 	text-decoration: none;
 }
@@ -236,7 +237,7 @@ header{
 	float: right;
 	position: relative;
 	bottom: 65px;
-	right: 10%;
+	right: 6%;
 	height: 50px;
 }
 .search img{
@@ -441,13 +442,12 @@ header{
 }
 .slider {
 	background:#ccc;
-	width: 100%;
-	height: 582px;
+	width: 1280px;
+	height: 580px;
 	position: relative;
 	z-index: -150;
 	margin: 0;
 	padding: 0;
-	text-align: center;
 	border-bottom: 2px solid #ff5959;
 	bottom: 2px;
 }
@@ -469,6 +469,9 @@ header{
 	top:450px;
 	left: 650px;
 }
+.slider img{
+	position: absolute;
+}
 .column{
 	height: 180px;
 	position: relative;
@@ -482,7 +485,7 @@ header{
 	margin-right: 23px;
 }
 .baner img{
-	border: 1px solid#f2f2f2
+	border: 1px solid#f2f2f2;
 }
 .baner a{
 	text-decoration: none;
@@ -542,7 +545,8 @@ header{
 	font-size: 11px;
 	position: relative;
 	bottom: 200px;
-	left: 30px
+	left: 30px;
+	width: 150px;
 }
 .baner_3 sup{
 	color: #fff; 
@@ -818,8 +822,8 @@ header{
 }
 footer{
 	float: left;
-	width: 1258px;
 	height: 205px;
+	width: 1260px;
 	background-color: #efefef; 
 	-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,.05); 
 	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.05); 
@@ -899,6 +903,28 @@ footer ul{
 	float: left;
 	width: 160px;
 	height: 130px;
+}
+.payment{
+	float: right;
+	margin-top: 30px;
+	margin-right: 90px;
+}
+.payment ul{
+	list-style: none;
+	padding: 5px
+}
+.payment li{
+	display: inline-block;
+}
+.payment p{
+	padding-top: 20px;
+	color: #6e6e6e; 
+	font-family: "Baroque Script";
+	font-size: 13px;
+}
+footer a:hover{
+	color: #fe8080;
+	text-decoration: underline;
 }
 
 
