@@ -1,6 +1,6 @@
 header, body{
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	width: 1280px;
 	background-color: #ffffff;
 }
@@ -17,7 +17,7 @@ header{
 	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.15); 
 	box-shadow: 0 0 3px rgba(0,0,0,.15);
 	float: left;
-	margin-left: 250px;
+	margin-left: 150px;
 }
 .logo span{
 	color: #fff; 
@@ -40,7 +40,7 @@ header{
 	width: 850px;
 	border-bottom: 1px solid #ccc;
 	position: absolute;
-	margin-left: 430px;
+	margin-left: 330px;
 }
 .login a{
 	text-decoration: none;
@@ -53,7 +53,6 @@ header{
 	white-space: pre-wrap;
 }
 .login{
-	margin-right: 60px;
 	float: right;
 	padding-top: 10px;
 	float: right;
@@ -203,7 +202,7 @@ header{
 	width: 300px;
 	height: 190px;
 	position:absolute;
-	left:612px;
+	left:512px;
 	padding-left: 25px;
 	display: none;
 	top:63px;
@@ -476,7 +475,7 @@ header{
 	height: 180px;
 	position: relative;
 	top:20px;
-	margin-left: 250px;
+	margin-left: 150px;
 }
 .column .baner {
 	width: 307px;
@@ -598,7 +597,7 @@ header{
 	font-size: 18px;
 }
 .block_3{
-	margin-left: 250px;
+	margin-left: 150px;
 	width: 970px;
 }
 .column_2 .price p{
@@ -651,7 +650,7 @@ header{
 }
 .cont{
 	float: left;
-	margin-left: 250px;
+	margin-left: 150px;
 	margin-top: 50px;
 }
 .twitter{
@@ -834,7 +833,7 @@ footer{
 	float: left;
 	width: 160px;
 	height: 130px;
-	margin-left: 250px;
+	margin-left: 150px;
 	margin-top: 30px;
 }
 footer h3{
@@ -907,7 +906,7 @@ footer ul{
 .payment{
 	float: right;
 	margin-top: 30px;
-	margin-right: 90px;
+	margin-right: 190px;
 }
 .payment ul{
 	list-style: none;
