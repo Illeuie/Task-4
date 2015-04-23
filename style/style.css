@@ -68,6 +68,7 @@ header{
 .main_lang a{
 	color: red;
 	text-decoration: none;
+	margin-left: 5px;
 }
 .main_lang {
 	list-style: none;
@@ -83,7 +84,7 @@ header{
 	color:red;
 	text-decoration: none;
 	display: block;
-	padding: 2px;
+	margin-top: 2px;
 }
 .sub_lang{
 	list-style: none;
@@ -103,6 +104,9 @@ header{
 .main_lang>li:hover .sub_lang{
 	display: block;
 }
+.main_lang>li>.sub_lang a:hover{
+	background: #f2f2f2;
+}
 .main_lang span{
 	position: relative;
 	bottom: 3px;
@@ -113,6 +117,7 @@ header{
 .main_many a{
 	color: red;
 	text-decoration: none;
+	margin-left: 5px;
 }
 .main_many {
 	list-style: none;
@@ -129,7 +134,7 @@ header{
 	color:red;
 	text-decoration: none;
 	display: block;
-	padding: 2px;
+	margin-top: 2px;
 }
 .sub_many{
 	list-style: none;
@@ -141,13 +146,16 @@ header{
 	height: 20px;
 	position: relative;
 	z-index: 10;
-	left: 40px;
+	left: 43px;
 	color: #656565; 
 	font-family: "Droid Sans", sans-serif;
 	font-size: 12px;
 }
 .main_many>li:hover >.sub_many{
 	display: block;
+}
+.main_many>li>.sub_many a:hover{
+	background: #f2f2f2;
 }
 .main_many span{
 	position: relative;
@@ -600,7 +608,7 @@ header{
 	margin-left: 150px;
 	width: 970px;
 }
-.column_2 .price p{
+.column_2 >.price >p{
 	width: 69px;
 	height: 44px;
 	border-radius: 50%;
@@ -614,18 +622,25 @@ header{
 	position: absolute;
 	z-index: -20;
 	left: 75px;
-	bottom: 60px;
+	bottom: 70px;
 }
 .column_2 .add_cart h3{
 	color: #656565; 
 	font-family: "Droid Sans", sans-serif;
 	font-size: 13px;
+	background: #fff;
+	height: 10px;
+	padding-top: 15px;
+	position: relative;
+	bottom: 15px;
 }
 .column_2 .add_cart img{
 	width: 11px;
 	height: 11px;
 	background: #FFFFFF;
 	border: none;
+	position: relative;
+	bottom: 17px;
 }
 .column_2{
 	position: relative;
@@ -644,6 +659,58 @@ header{
 	top: 250px;
 	z-index: 19;
 	display: none;
+}
+.sell_1 img{
+	width: 26px;
+	height: 20px;
+	-moz-border-radius: 2px 2px 6px 6px / 2px 2px 13px 13px;
+	-webkit-border-radius: 2px 2px 6px 6px / 2px 2px 13px 13px;
+	border-radius: 2px 2px 6px 6px / 2px 2px 13px 13px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: none;
+	padding:0 5px 0 0;
+	float: left;
+}
+.sell >.sell_1 >span{
+	color: #898989; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 11px;
+	float: left;
+	padding-top: 10px;
+}
+.sell{
+	border-top: 1px solid red;
+	width: 200px;
+	padding-top: 10px;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	bottom: 15px
+}
+.sell_1{
+	width: 100px;
+	height: 25px;
+	border-right:1px solid#f2f2f2; 
+}
+.sell_2 {
+	float: right;
+	width: 90px;
+	height: 25px;
+	position: relative;
+	bottom: 24px
+}
+.sell_2 >p{
+	color: #898989; /* text color */
+	font-family: "Droid Sans", sans-serif;
+	font-size: 10px;
+	padding: 0;
+	margin: 0
+}
+.sell_2 span{
+	color: red;
+	float: left;
 }
 .column_2:hover>.price{
 	display: block;
