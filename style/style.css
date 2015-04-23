@@ -84,7 +84,8 @@ header{
 	color:red;
 	text-decoration: none;
 	display: block;
-	margin-top: 2px;
+	height: 15px;
+	border: 1px solid#f2f2f2;
 }
 .sub_lang{
 	list-style: none;
@@ -106,6 +107,7 @@ header{
 }
 .main_lang>li>.sub_lang a:hover{
 	background: #f2f2f2;
+	color: #B60B57;
 }
 .main_lang span{
 	position: relative;
@@ -134,7 +136,8 @@ header{
 	color:red;
 	text-decoration: none;
 	display: block;
-	margin-top: 2px;
+	height: 15px;
+	border: 1px solid#f2f2f2;
 }
 .sub_many{
 	list-style: none;
@@ -156,6 +159,7 @@ header{
 }
 .main_many>li>.sub_many a:hover{
 	background: #f2f2f2;
+	color: #B60B57;
 }
 .main_many span{
 	position: relative;
@@ -448,8 +452,8 @@ header{
 	bottom: 5px;
 }
 .slider {
-	background:#ccc;
-	width: 1280px;
+
+	width: 1258px;
 	height: 580px;
 	position: relative;
 	z-index: -150;
