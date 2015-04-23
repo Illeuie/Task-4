@@ -608,7 +608,7 @@ header{
 	margin-left: 150px;
 	width: 970px;
 }
-.column_2 >.price >p{
+.img_1 >.price >p{
 	width: 69px;
 	height: 44px;
 	border-radius: 50%;
@@ -624,7 +624,7 @@ header{
 	left: 75px;
 	bottom: 70px;
 }
-.column_2 .add_cart h3{
+.img_1 .add_cart h3{
 	color: #656565; 
 	font-family: "Droid Sans", sans-serif;
 	font-size: 13px;
@@ -634,7 +634,7 @@ header{
 	position: relative;
 	bottom: 15px;
 }
-.column_2 .add_cart img{
+.img_1 .add_cart img{
 	width: 11px;
 	height: 11px;
 	background: #FFFFFF;
@@ -645,7 +645,7 @@ header{
 .column_2{
 	position: relative;
 }
-.column_2 .add_cart{
+.img_1 .add_cart{
 	text-align: center;
 	position: relative;
 	z-index: 20;
@@ -712,8 +712,11 @@ header{
 	color: red;
 	float: left;
 }
-.column_2:hover>.price{
+.img_1:hover>.price{
 	display: block;
+}
+.img_1{
+	float: left;
 }
 .cont{
 	float: left;
